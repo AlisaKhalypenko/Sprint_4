@@ -2,7 +2,7 @@ package com.ya;
 
 public class Praktikum {
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args){
         /*
              В этом методе заложи логику работы с классом Account.
              Нужно создать экземпляр класса Account: в качестве аргумента передать тестируемое имя
@@ -11,7 +11,6 @@ public class Praktikum {
         Account account = new Account("Timothy Chalamet");
         boolean result = account.checkNameToEmboss();
         System.out.println(result);
-
     }
 
 }
